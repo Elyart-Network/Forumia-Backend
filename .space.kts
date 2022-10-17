@@ -5,5 +5,11 @@
 */
 
 job("Hello World!") {
-    container(displayName = "Say Hello", image = "hello-world")
+    host("Run Hello World") {
+        shellScript {
+        	content = """
+                echo Hello World!
+            """
+        }
+    }
 }
