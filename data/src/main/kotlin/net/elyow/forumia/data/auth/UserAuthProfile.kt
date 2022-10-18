@@ -3,17 +3,15 @@ package net.elyow.forumia.data.auth
 import kotlinx.serialization.Serializable
 
 /**
- * User auth profile
- *
- * @property uid
- * @property salt
- * @property password
- * @property _uid database internal representation of the user, **NOT** the profile.
+ * User Auth Profile
+ * @property username User's identity.
+ * @property salt BCrypt salt for the password.
+ * @property password Password it self.
  */
+
 @Serializable
 data class UserAuthProfile(
-    val uid: String,
+    val username: String,
     val salt: String,
     val password: String,
-    val _uid: String? = null,
 )
