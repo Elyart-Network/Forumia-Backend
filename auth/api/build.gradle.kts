@@ -5,5 +5,5 @@ plugins {
 
 dependencies {
     api(project(":data"))
-    api(project(":database"))
+    api(project(":storage"))
 }
