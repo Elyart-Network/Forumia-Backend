@@ -5,4 +5,5 @@ plugins {
 dependencies {
     api("org.ktorm:ktorm-core:3.5.0")
     api("org.ktorm:ktorm-support-mysql:3.5.0")
+    api("redis.clients:jedis:4.3.0")
 }
