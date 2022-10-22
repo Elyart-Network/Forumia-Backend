@@ -1,0 +1,10 @@
+root = true
+
+[*.toml]
+max_line_length = off
+
+[*.kts]
+max_line_length = off
+
+[*.kt]
+max_line_length = 140
