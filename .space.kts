@@ -11,4 +11,9 @@ job("Build and run tests") {
             api.gradlew("build")
         }
     }
+    startOn {
+        gitPush {
+            enabled = true
+        }
+    }
 }
