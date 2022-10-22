@@ -5,5 +5,5 @@ plugins {
 
 dependencies {
     api(project(":data"))
-    api(project(":storage"))
+    implementation(libs.kotlinx.coroutines)
 }

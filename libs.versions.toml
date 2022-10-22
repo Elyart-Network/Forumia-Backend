@@ -1,0 +1,11 @@
+[libraries]
+kotlinx-coroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.4.1"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.4.1"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.4.1"
+
+firebase-admin = "com.google.firebase:firebase-admin:9.0.0"
+
+
+[bundles]
+kotlinx-serialization-all = ["kotlinx-serialization-core", "kotlinx-serialization-json", "kotlinx-serialization-protobuf"]
