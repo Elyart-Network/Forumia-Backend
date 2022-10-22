@@ -18,6 +18,6 @@ data class UserInfo(
     val username: String,
     val email: String,
     val nickname: String,
-    val avatar: String,
-    val verified: String,
+    val avatar: String?,
+    val verified: Boolean,
 )
